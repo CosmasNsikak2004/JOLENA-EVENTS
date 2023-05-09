@@ -240,11 +240,7 @@ footer{
 .small-details h2{
     font-weight: 500;
     font-family: 'Dosis', sans-serif;
-}
-
-.small-details h4{
-    text-align: right;
-    font-size: 22px;
+    margin-bottom: 40px;
 }
 
 .line{
@@ -355,6 +351,7 @@ footer{
 }
 
 /* gallery-popup-sec */
+
 .gallery-popup-sec{
     cursor: zoom-out;
     position: fixed;
@@ -449,6 +446,203 @@ footer{
 
 .gallery-popup-sec .gp-controls-sec .prev:hover i,
 .gallery-popup-sec .gp-controls-sec .next:hover i{
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* gallery-popup-tri */
+.gallery-popup-tri{
+    cursor: zoom-out;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1099;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.gallery-popup-tri.open{
+    display: flex;
+}
+
+.gallery-popup-tri img.gp-img-tri{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    padding: 40px 0;
+}
+
+.gallery-popup-tri .gp-container-tri{
+    position: relative;
+    cursor: auto;
+}
+
+.gallery-popup-tri .gp-counter-tri{
+    font-family: var(--Poppins);
+    display: block;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.gallery-popup-tri .gp-close-tri{
+    font-family: var(--Poppins);
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 38px;
+    overflow: hidden;
+    cursor: zoom-out;
+}
+
+.gallery-popup-tri .gp-controls-tri{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-popup-tri .gp-controls-tri .prev,
+.gallery-popup-tri .gp-controls-tri .next{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.gallery-popup-tri .gp-controls-tri .prev i,
+.gallery-popup-tri .gp-controls-tri .next i{
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+}
+
+.gallery-popup-tri .gp-controls-tri .prev:hover i,
+.gallery-popup-tri .gp-controls-tri .next:hover i{
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* gallery-popup-end */
+
+.gallery-popup-end{
+    cursor: zoom-out;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1099;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.gallery-popup-end.open{
+    display: flex;
+}
+
+.gallery-popup-end img.gp-img-end{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    padding: 40px 0;
+}
+
+.gallery-popup-end .gp-container-end{
+    position: relative;
+    cursor: auto;
+}
+
+.gallery-popup-end .gp-counter-end{
+    font-family: var(--Poppins);
+    display: block;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.gallery-popup-end .gp-close-end{
+    font-family: var(--Poppins);
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 38px;
+    overflow: hidden;
+    cursor: zoom-out;
+}
+
+.gallery-popup-end .gp-controls-end{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-popup-end .gp-controls-end .prev,
+.gallery-popup-end .gp-controls-end .next{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.gallery-popup-end .gp-controls-end .prev i,
+.gallery-popup-end .gp-controls-end .next i{
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+}
+
+.gallery-popup-end .gp-controls-end .prev:hover i,
+.gallery-popup-end .gp-controls-end .next:hover i{
     background-color: rgba(0,0,0,0.8);
 }
 
