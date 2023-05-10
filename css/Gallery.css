@@ -171,7 +171,9 @@ footer{
 }
 
 .header .nav ul li a.active{
-    color: #e4d01e;
+    background: linear-gradient(to right, #c69320 0%, #fceb01 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .header .nav ul li a:hover{
@@ -672,6 +674,7 @@ footer{
     color: #1f1f1f;
     text-align: center;
     font-size: 19.5px;
+    font-family: 'Playfair', sans-serif;
 }
 
 /* Footer */

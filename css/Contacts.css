@@ -184,7 +184,9 @@ footer{
 }
 
 .header .nav ul li a.active{
-    color: #e6cc00;
+    background: linear-gradient(to right, #c69320 0%, #fceb01 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .header .nav ul li a:hover{
@@ -233,7 +235,7 @@ min-height: 100vh;
     font-size: 40px;
     color: #ffffff;
     margin: 0 0 15px;
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Playfair', sans-serif;
     text-shadow: 3px 4px 5px #000;
 }
 
@@ -384,6 +386,7 @@ textarea.contact-input ~ label{
 .home-list div p{
     text-align: center;
     font-size: 19.5px;
+    font-family: 'Playfair', sans-serif;
 }
 
 /* Footer */
@@ -497,6 +500,10 @@ textarea.contact-input ~ label{
         font-size: 50px;
     }
 
+    .home-section .home-content p{
+        font-size: 35px;
+    }
+
     .container-footer{
         display: block;
         text-align: center;
@@ -585,5 +592,9 @@ textarea.contact-input ~ label{
 @media(max-width: 547px){
     .home-section .home-content h1{
         font-size: 35.7px;
+    }
+
+    .home-section .home-content p{
+        font-size: 30px;
     }
 }

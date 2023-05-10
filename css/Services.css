@@ -29,7 +29,6 @@ body.dark{
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Abril', sans-serif;
     box-sizing: border-box;
 }
 
@@ -173,6 +172,7 @@ footer{
     display: block;
     padding: 25px 0;
     transition: scale .2 ease;
+    font-family: 'Abril', sans-serif;
     color: #ffffff;
 }
 
@@ -182,7 +182,9 @@ footer{
 }
 
 .header .nav ul li a.active{
-    color: #e4d01e;
+    background: linear-gradient(to right, #c69320 0%, #fceb01 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .header .nav ul li a:hover{
@@ -246,7 +248,7 @@ footer{
     color: #ffffff;
     margin: 0;
     font-weight: normal;
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Playfair', sans-serif;
     text-shadow: 3px 4px 5px #000;    
 }
 
@@ -292,6 +294,7 @@ footer{
     font-size: 20px;
     margin-bottom: 70px;
     letter-spacing: .5px;
+    font-family: 'Abril', sans-serif;
 }
 
 .story-section .story-content{
@@ -370,6 +373,7 @@ footer{
     margin: 0 0 20px;
     color: #080808;
     text-transform: capitalize;
+    font-family: 'Abril', sans-serif;
 }
 
 .story-section .story-text p{
@@ -381,42 +385,23 @@ footer{
 }
 
 /* Blob items */
-
-.container-iv{
-    margin: 0 10%; 
-}
-
 .wrapper{
-    display: flex;
-}
-
-.item{
-    width: 33.33%;
-    padding: 50px;
-}
-
-.item img{
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.one img{
-    border-radius: 58% 42% 61% 39% / 28% 80% 20% 72% ;
-}
-
-.item p{
+    align-items: center;
     text-align: center;
+}
+
+.wrapper h4{
+    font-family: 'Abril', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    background: linear-gradient(to right, #c69320 0%, #fcc201 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.wrapper p{
     font-family: 'Dosis', sans-serif;
-    padding-top: 7px;
     font-size: 20px;
-}
-
-.two img{
-    border-radius: 51% 49% 33% 67% / 36% 57% 43% 64% ;
-}
-
-.three img{
-    border-radius: 45% 55% 73% 27% / 54% 34% 66% 46%  ;
 }
 
 /* contact items */
@@ -444,6 +429,7 @@ footer{
 .home-list div p{
     text-align: center;
     font-size: 19.5px;
+    font-family: 'Playfair', sans-serif;
 }
 
 /* Footer */
@@ -518,13 +504,6 @@ footer{
         font-weight: 300;
     }
 
-    .container-iv{
-        margin: 0 5%;
-    }
-
-    .item p{
-        font-size: 18px;
-    }
 }
 
 @media(max-width: 767px){
@@ -564,6 +543,10 @@ footer{
 
     .home-section .home-content h1{
         font-size: 50px;
+    }
+
+    .home-section .home-content p{
+        font-size: 35px;
     }
 
     .gallery-section .section-title{
@@ -607,19 +590,6 @@ footer{
         align-items: center;
     }
 
-    .container-iv{
-        margin: 0 8%; 
-    }
-    
-    .wrapper{
-        display: block;
-    }
-    
-    .item{
-        width: 100%;
-        padding: 50px;
-    }
-
     .move-up{
         margin-bottom: 70px;
         margin-left: 6%;
@@ -645,5 +615,9 @@ footer{
 @media(max-width: 547px){
     .home-section .home-content h1{
         font-size: 35.7px;
+    }
+
+    .home-section .home-content p{
+        font-size: 30px;
     }
 }
