@@ -388,6 +388,7 @@ footer{
 /* Blob items */
 
 .wrapper{
+    overflow: hidden;
     align-items: center;
     text-align: center;
 }
