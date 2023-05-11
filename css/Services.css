@@ -197,6 +197,7 @@ footer{
 }
 
 /* home section */
+
 .home-section{
     min-height: 100vh;
     position: relative;
@@ -385,6 +386,7 @@ footer{
 }
 
 /* Blob items */
+
 .wrapper{
     align-items: center;
     text-align: center;
@@ -394,9 +396,7 @@ footer{
     font-family: 'Abril', sans-serif;
     font-size: 18px;
     padding: 10px;
-    background: linear-gradient(to right, #c69320 0%, #fcc201 100%);
-    -webkit-background-clip: text;
-    color: transparent;
+    color:#080808;
 }
 
 .wrapper p{
