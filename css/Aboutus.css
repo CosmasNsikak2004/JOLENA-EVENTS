@@ -223,19 +223,6 @@ footer{
     margin-bottom: 10px;
 }
 
-.sub-content h1{
-    width: 100%;
-    border-bottom: 1.5px solid #1f1e1e;
-    line-height: 0.1em;
-}
-
-.sub-content h1 span{
-    background: var(--bg-black-900);
-    font-family: 'Sansita', sans-serif;
-    font-size: 30px;
-    padding: 0 10px;
-}
-
 .sub-content p{
     font-size: 20px;  
     margin: 20px 0;

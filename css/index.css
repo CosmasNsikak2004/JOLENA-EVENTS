@@ -627,7 +627,7 @@ section .container .owl-nav{
 
 .two{
     border-top: 1px solid #bdbcbc;
-    margin-bottom: 50px;
+    margin:0 50px 50px;
 }
 
 .hidden-message{
