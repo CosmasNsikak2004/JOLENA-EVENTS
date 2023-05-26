@@ -416,17 +416,6 @@ section .container .owl-nav{
 
 /* Middle Picture */
 
-.pic{
-    background:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/IMG_7319-pic.jpg);
-    height: 70vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    overflow: hidden;
-    max-width: 100%;
-}
-
 .inside{
     padding: 10vh 5vw;
 }
@@ -614,8 +603,7 @@ section .container .owl-nav{
 }
 
 /* static photo2 */
-.pic2{
-    background:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/gene-gallin-rBt6OS_1xoI-unsplash\ \(1\)blured.jpg);
+.pic2 .photo2{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
