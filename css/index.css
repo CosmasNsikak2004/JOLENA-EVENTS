@@ -416,6 +416,16 @@ section .container .owl-nav{
 
 /* Middle Picture */
 
+.pic .photo{
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    overflow: hidden;
+    max-width: 100%;
+}
+
 .inside{
     padding: 10vh 5vw;
 }
