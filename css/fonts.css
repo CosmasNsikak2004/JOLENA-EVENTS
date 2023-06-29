@@ -1,10 +1,4 @@
 
-/* font-family: Clicker */
-@font-face{
-    font-family: Clicker;
-    src: url('../fonts/Clicker_Script/ClickerScript-Regular.ttf');
-}
-
 /* font-family: Poppins */
 @font-face{
     font-family: Poppins;
@@ -23,12 +17,6 @@
     src: url('../fonts/Abel/Abel-Regular.ttf');
 }
 
-/* font-family: Anton */
-@font-face{
-    font-family: Anton;
-    src: url('../fonts/Anton/Anton-Regular.ttf');
-}
-
 /* font-family: Abril FatFace */
 @font-face{
     font-family: Abril;
@@ -39,24 +27,6 @@
 @font-face{
     font-family: Sansita;
     src: url('../fonts/Sansita/Sansita-Regular.ttf');
-}
-
-/* font-family: Josefin */
-@font-face{
-    font-family: Josefin;
-    src: url('../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf');
-}
-
-/* font-family: Lexend */
-@font-face{
-    font-family: Lexend;
-    src: url('../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf');
-}
-
-/* font-family: Livvic */
-@font-face{
-    font-family: Livvic;
-    src: url('../fonts/Livvic/Livvic-Regular.ttf');
 }
 
 /* font-family: Dosis */
